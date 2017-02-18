@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/com/king/android/common/exception/ExceptionHandler.java=UTF-8
+encoding//src/com/king/android/common/exception/ExceptionInfo.java=UTF-8
+encoding//src/com/king/android/common/permission/PermissionActivity.java=UTF-8
+encoding//src/com/king/android/common/widget/badge/BGABadgeCheckedTextView.java=UTF-8
+encoding//src/com/king/android/common/widget/badge/BGABadgeViewHelper.java=UTF-8
+encoding//src/com/king/android/common/widget/badge/BGABadgeable.java=UTF-8
+encoding//src/com/king/android/common/widget/badge/BGADragDismissDelegate.java=UTF-8
+encoding//src/com/king/android/common/zxing/decoding/CaptureActivityHandler.java=UTF-8
+encoding//src/com/king/android/common/zxing/view/ViewfinderView.java=UTF-8

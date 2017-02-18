@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.AppCompatButton
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </android.support.v7.widget.AppCompatButton>
+    
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </CheckBox>
+    
+    <android.support.v7.widget.AppCompatRadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </android.support.v7.widget.AppCompatRadioButton>
+    
+    <android.support.v7.widget.AppCompatRatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </android.support.v7.widget.AppCompatRatingBar>
+    
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </android.support.v7.widget.AppCompatSpinner>
+    
+    <EditText
+        android:textColor="@color/secondary_text_default_material_light"
+        android:hint="请输入"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </EditText>
+    
+    <android.support.v7.widget.AppCompatTextView
+        android:textColor="@color/primary_text_default_material_light"
+        android:text="TextView"
+        android:textIsSelectable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </android.support.v7.widget.AppCompatTextView>
+
+</LinearLayout>

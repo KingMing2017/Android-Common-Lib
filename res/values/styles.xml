@@ -1,0 +1,62 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <!-- toolbar（actionbar）颜色 -->
+        <item name="colorPrimary">#2DAB4C</item>
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">#2DAB4C</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@color/background_material_light</item>
+        <!-- App bar 上的标题与更多菜单中的文字颜色 -->
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
+        <!-- 各控制元件(如：check box、switch 或是 radoi) 被勾选 (checked) 或是选定 -->
+        <item name="colorAccent">#2DAB4C</item>
+        <item name="actionOverflowMenuStyle">@style/MenuStyle</item>
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        
+        <item name="styleLoadingLayout">@style/LoadingLayoutStyle</item>
+    </style>
+
+    <style name="LoadingLayoutStyle" parent="LoadingLayout.Style">
+        <item name="llEmptyImage">@drawable/empty</item>
+        <item name="llErrorImage">@drawable/error</item>
+    </style>
+
+    <style name="MenuStyle" parent="@style/Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:popupBackground">#31A0FF</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/push_left_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_right_out</item>
+    </style>
+
+    <!-- animation 样式 -->
+    <style name="appAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/push_top_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/push_top_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android-Common-Lib</string>
+    <string name="imgv_content_description">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_share">Share</string>
+    <string name="drawerlayout_open">Open</string>
+    <string name="drawerlayout_close">Close</string>
+    
+    <string name="tip_loading_info">正在加载</string>
+    <string name="tip_once_again_exit_app">再按一次退出程序</string>
+
+</resources>
