@@ -5,7 +5,6 @@ import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
 
 import android.app.Activity;
-import android.app.NotificationManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -157,17 +156,7 @@ public class BaseUtils {
 		msg.obj = obj;
 		handler.sendMessage(msg);
 	}
-
-	/**
-	 * 清除推送通知
-	 * @param context
-	 * @param state
-	 */
-	public static void clearNotificaton(Context context, int id){
-		NotificationManager nm = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
-		nm.cancel(id);
-	}
-
+	
 	/**
 	 * MD5加密
 	 * @param arg0
