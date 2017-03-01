@@ -68,6 +68,7 @@ public class Indicator {
 	private void selectTabItem(int position){
 		mTabIndex = position;
 		mTabList.get(mTabIndex).setState(true);
+		mTabAdapter.tab(position);
 	}
 
 	// µ×À¸Footerµã»÷ÊÂ¼þ¼àÌý

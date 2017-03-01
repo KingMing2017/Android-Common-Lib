@@ -98,6 +98,10 @@ public class FooterTabAdapter extends BaseAdapter {
         return view;
 	}
 	
+	public void tab(int i){
+		this.mPreTabItem = i;
+	}
+	
 	class ViewHolder { 
 		public BGABadgeRadioButton tv = null;
 	}

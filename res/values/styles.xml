@@ -19,7 +19,7 @@
         <!-- toolbar（actionbar）颜色 -->
         <item name="colorPrimary">#2DAB4C</item>
         <!-- 状态栏颜色 -->
-        <item name="colorPrimaryDark">#2DAB4C</item>
+        <item name="colorPrimaryDark">#2DAB4C</item> 
         <!-- 窗口的背景颜色 -->
         <item name="android:windowBackground">@color/background_material_light</item>
         <!-- App bar 上的标题与更多菜单中的文字颜色 -->
