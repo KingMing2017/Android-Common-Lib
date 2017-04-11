@@ -19,6 +19,7 @@ import android.view.SurfaceView;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
@@ -40,6 +41,7 @@ public class CaptureActivity extends Activity implements Callback {
 	
 	private CaptureActivityHandler handler;
 	private ViewfinderView viewfinderView;
+	private TextView mTitleTv = null;
 	private boolean hasSurface;
 	private Vector<BarcodeFormat> decodeFormats;
 	private String characterSet;
@@ -63,6 +65,7 @@ public class CaptureActivity extends Activity implements Callback {
 		//ViewUtil.addTopView(getApplicationContext(), this, R.string.scan_card);
 		CameraManager.init(getApplication());
 		viewfinderView = (ViewfinderView) findViewById(R.id.viewfinder_view);
+		mTitleTv = (TextView) findViewById(R.id.textview_title);
 		
 		Button mButtonBack = (Button) findViewById(R.id.button_back);
 		mButtonBack.setOnClickListener(new OnClickListener() {
@@ -263,6 +266,10 @@ public class CaptureActivity extends Activity implements Callback {
 	
 	protected void onScanFailed(Result result, Bitmap barcode) {
 		
+	}
+	
+	protected void setActivityTitle(String title) {
+		mTitleTv.setText(title);
 	}
 
 }
