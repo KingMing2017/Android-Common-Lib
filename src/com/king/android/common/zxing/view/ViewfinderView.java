@@ -27,6 +27,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.Typeface;
+import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -117,6 +118,8 @@ public final class ViewfinderView extends View {
 
 	boolean isFirst;
 	
+	private String scantxt;
+	
 	public ViewfinderView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 		
@@ -203,7 +206,10 @@ public final class ViewfinderView extends View {
 			paint.setTextSize(TEXT_SIZE * density);
 			paint.setAlpha(0x40);
 			paint.setTypeface(Typeface.create("System", Typeface.BOLD));
-			canvas.drawText(getResources().getString(R.string.scan_text), frame.left-TEXT_PADDING_LEFT, (float) (frame.bottom + (float)TEXT_PADDING_TOP *density), paint);
+			
+			String scanFormat = getResources().getString(R.string.scan_text); 
+			String scan = String.format(scanFormat, scantxt);
+			canvas.drawText(scan, frame.left-TEXT_PADDING_LEFT, (float) (frame.bottom + (float)TEXT_PADDING_TOP *density), paint);
 			
 			
 
@@ -257,6 +263,10 @@ public final class ViewfinderView extends View {
 
 	public void addPossibleResultPoint(ResultPoint point) {
 		possibleResultPoints.add(point);
+	}
+	
+	public void setScanTxt(String txt){
+		this.scantxt = txt;
 	}
 
 }

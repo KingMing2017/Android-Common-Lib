@@ -64,6 +64,16 @@ public abstract class DbHelper {
 		int ret = mSQLiteDatabase.update(table, values, "id = ?", new String[]{id});
 		return ret;
 	}
+	
+	protected int update(String table, ContentValues values, String columnName, String columnValue){
+		int ret = mSQLiteDatabase.update(table, values, columnName+" = ?", new String[]{columnValue});
+		return ret;
+	}
+	
+	protected int update(String table, ContentValues values, String columnNames, String[] columnValues){
+		int ret = mSQLiteDatabase.update(table, values, columnNames, columnValues);
+		return ret;
+	}
 
 	/**
 	 * 
