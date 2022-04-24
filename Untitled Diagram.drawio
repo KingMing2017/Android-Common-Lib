@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T02:55:51.705Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="nwHdkc3TGUOd9DcykLSo" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T03:09:36.071Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="Jk4yzc1DBEhACCUiEq44" version="17.4.6" type="github">
   <diagram id="DpFBj8TZs9Hdc5gK09Gh" name="Page-1">
-    <mxGraphModel dx="2766" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3006" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -515,6 +515,24 @@
         </mxCell>
         <mxCell id="H8TTxolA3oLyKh7ImpaG-126" value="tc_hwc_getDisplayVisibility" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1420" y="430" width="170" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="H8TTxolA3oLyKh7ImpaG-128" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H8TTxolA3oLyKh7ImpaG-131" value="framworks/base/core" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-930" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H8TTxolA3oLyKh7ImpaG-132" value="&lt;div&gt;frameworks/native/lib/gui&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-750" width="530" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H8TTxolA3oLyKh7ImpaG-133" value="&lt;div&gt;frameworks/native/services/surfaceflinger&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-190" width="870" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H8TTxolA3oLyKh7ImpaG-134" value="&lt;div&gt;hardware/interfaces/graphics/composer/2.1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="690" width="590" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H8TTxolA3oLyKh7ImpaG-135" value="&lt;div&gt;hardware/telechips/hwc/v1.x&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1320" width="330" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
